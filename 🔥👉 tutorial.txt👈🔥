@@ -1,0 +1,57 @@
+I can see this is an Android performance optimization script called "RPJ-PERFORMANCES-V2.0.sh" by Willy Gailo. The script aims to optimize various aspects of Android devices including network performance, system performance, touch response, memory usage, and battery life.
+
+To execute this script on an Android device, you would need to:
+
+1. Install Termux (a terminal emulator for Android)
+2. Copy this script to your Android device
+3. Open Termux and run the following commands:
+
+If step 1 works, do not use step 2 to execute the script yet.
+
+step 1 🔥👇👇👇 
+
+```bash
+# Navigate to where you saved the script
+cd /storage/emulated/0/RPJ-PERFORMANCES-V2.0/RPJ-PERFORMANCES-V2.0.sh
+
+# Make the script executable
+chmod +x RPJ-PERFORMANCES-V2.0.sh
+
+# Execute the script
+./RPJ-PERFORMANCES-V2.0.sh
+```
+
+Note that some optimizations require root access. The script checks for this and will run with limited functionality on non-rooted devices. It also checks for the presence of either Termux, Brevent, or Qute applications before proceeding.
+
+Before running any script that modifies system settings, I recommend:
+- Making a backup of your device
+- Understanding what the script does (it attempts to optimize network settings, CPU performance, touch response, memory usage, and battery consumption)
+- Being cautious, as some modifications might affect system stability
+
+
+If step 2 works, do not use step 1 to execute the script yet.
+
+STEP 2 🔥🔥👇👇👇👇
+1. Install muna ang nano kung wala pa:
+```bash
+pkg install nano
+```
+
+2. Gamitin ang nano para buksan at i-edit ang script:
+```bash
+nano RPJ-PERFORMANCES-V2.0.sh
+```
+
+3. Pagkatapos mag-edit, pindutin ang `CTRL + X` para mag-exit, tapos `Y` para i-save ang changes, at `Enter` para i-confirm.
+
+4. Tapos gawin mong executable ang script:
+```bash
+chmod +x RPJ-PERFORMANCES-V2.0.sh
+```
+
+5. Para i-execute ang script:
+```bash
+./RPJ-PERFORMANCES-V2.0.sh
+```
+
+Tandaan na kailangan ng permission para sa ilang settings at mas maraming magagawang optimization kung naka-root ang device mo.
